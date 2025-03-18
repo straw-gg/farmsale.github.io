@@ -233,17 +233,17 @@ const G = O({}, [
       setup(t) {
         const s = u([
             {
-              src: new URL("./static/jpg/lubo1.CF74CVFQ.jpg", import.meta.url)
+              src: new URL("../jpg/lubo1.CF74CVFQ.jpg", import.meta.url)
                 .href,
               alt: "安徽农业丰收场景",
             },
             {
-              src: new URL("./static/jpg/lubo2.32df2Ck9.jpg", import.meta.url)
+              src: new URL("../jpg/lubo2.32df2Ck9.jpg", import.meta.url)
                 .href,
               alt: "现代农业示范基地",
             },
             {
-              src: new URL("./static/jpg/lubo3.BJ6Iz8S8.jpg", import.meta.url)
+              src: new URL("../jpg/lubo3.BJ6Iz8S8.jpg", import.meta.url)
                 .href,
               alt: "农产品加工流程",
             },
@@ -463,7 +463,7 @@ const G = O({}, [
       title: "长丰草莓",
       intro:
         "新鲜采摘，果肉饱满、甜美多汁，富含维生素C，口感超赞！适合做水果沙拉、健康美味。",
-      image: new URL("./static/jpg/pro1.BppsjYUc.jpg", import.meta.url).href,
+      image: new URL("../jpg/pro1.BppsjYUc.jpg", import.meta.url).href,
       price: 38,
       originalPrice: 48,
       discount: "7.9",
@@ -477,7 +477,7 @@ const G = O({}, [
       title: "砀山梨",
       intro:
         "脆嫩多汁，口感清爽，天然甜美，富含水分和膳食纤维，帮助消化，美容养颜，夏季水果选择！",
-      image: new URL("./static/jpg/pro2.G05S0ofB.jpg", import.meta.url).href,
+      image: new URL("../jpg/pro2.G05S0ofB.jpg", import.meta.url).href,
       price: 12.5,
       originalPrice: 15,
       discount: "8.3",
@@ -491,7 +491,7 @@ const G = O({}, [
       title: "砀山黄桃",
       intro:
         "果肉细腻，口感香甜，含有丰富的维生素和膳食纤维，天然无公害，是健康家庭的首选水果。",
-      image: new URL("./static/jpg/pro3.5Od45o1x.jpg", import.meta.url).href,
+      image: new URL("../jpg/pro3.5Od45o1x.jpg", import.meta.url).href,
       price: 25,
       originalPrice: 30,
       discount: "8.3",
@@ -505,7 +505,7 @@ const G = O({}, [
       title: "黄山毛峰",
       intro:
         "品质优良，香气浓郁，口感鲜爽回甘，茶叶爱好者的必备选择，适合日常品饮，助力健康生活。",
-      image: new URL("./static/jpg/pro4.CbCmFfM8.jpg", import.meta.url).href,
+      image: new URL("../jpg/pro4.CbCmFfM8.jpg", import.meta.url).href,
       price: 288,
       originalPrice: 320,
       discount: "9.0",
@@ -519,7 +519,7 @@ const G = O({}, [
       title: "六安瓜片",
       intro:
         "清香四溢，口感醇厚，回味甘爽，是茶友们的最爱，舒缓身心，是一种品味生活的理想选择。",
-      image: new URL("./static/jpg/pro5.8GgS_Opz.jpg", import.meta.url).href,
+      image: new URL("../jpg/pro5.8GgS_Opz.jpg", import.meta.url).href,
       price: 368,
       originalPrice: 400,
       discount: "9.2",
@@ -533,7 +533,7 @@ const G = O({}, [
       title: "和县辣椒",
       intro:
         "新鲜辣味十足，香气扑鼻，富含维生素C，适合各种烹饪，提升菜肴风味，家庭必备的辣椒选择！",
-      image: new URL("./static/jpg/pro6.CIVc3Py9.jpg", import.meta.url).href,
+      image: new URL("../jpg/pro6.CIVc3Py9.jpg", import.meta.url).href,
       price: 9.8,
       originalPrice: 12,
       discount: "8.2",
@@ -547,7 +547,7 @@ const G = O({}, [
       title: "阜阳芦蒿",
       intro:
         "脆嫩多汁，口感清爽，富含维生素和膳食纤维，增加菜肴的营养和口感，适合清炒、炖汤等多种做法！",
-      image: new URL("./static/jpg/pro7.CC8HoImd.jpg", import.meta.url).href,
+      image: new URL("../jpg/pro7.CC8HoImd.jpg", import.meta.url).href,
       price: 15,
       originalPrice: 18,
       discount: "8.3",
@@ -561,7 +561,7 @@ const G = O({}, [
       title: "芜湖大米",
       intro:
         "粒粒饱满，米香扑鼻，煮出的米饭松软可口，粘性适中，适合家庭日常食用，品质保证，米饭好味道！",
-      image: new URL("./static/jpg/pro8.DvazujvP.jpg", import.meta.url).href,
+      image: new URL("../jpg/pro8.DvazujvP.jpg", import.meta.url).href,
       price: 6.5,
       originalPrice: 8,
       discount: "8.1",
@@ -575,7 +575,7 @@ const G = O({}, [
       title: "滁州菜籽油",
       intro:
         "天然压榨，油质清澈，低脂健康，适合炒、凉拌等多种烹饪方式，提供营养，保养心血管，厨房必备！",
-      image: new URL("./static/jpg/pro9.CGL0uWo5.jpg", import.meta.url).href,
+      image: new URL("../jpg/pro9.CGL0uWo5.jpg", import.meta.url).href,
       price: 68,
       originalPrice: 80,
       discount: "8.5",
@@ -589,7 +589,7 @@ const G = O({}, [
       title: "宁国山核桃",
       intro:
         "香脆可口，富含蛋白质和健康脂肪，是理想的零食选择，帮助补充能量，享受美味的同时保持营养！",
-      image: new URL("./static/jpg/pro10.Vf868XuA.jpg", import.meta.url).href,
+      image: new URL("../jpg/pro10.Vf868XuA.jpg", import.meta.url).href,
       price: 88,
       originalPrice: 100,
       discount: "8.8",
@@ -603,7 +603,7 @@ const G = O({}, [
       title: "霍山板栗",
       intro:
         "外壳易剥，肉质鲜嫩，甜美口感，是秋冬季节的美味零食，富含维生素和矿物质，享受美味补充营养！",
-      image: new URL("./static/jpg/pro11.BOzpS-XV.jpg", import.meta.url).href,
+      image: new URL("../jpg/pro11.BOzpS-XV.jpg", import.meta.url).href,
       price: 22,
       originalPrice: 25,
       discount: "8.8",
@@ -617,7 +617,7 @@ const G = O({}, [
       title: "铜陵白姜",
       intro:
         "香气浓烈，辣味十足，富含多种矿物质和维生素，促进消化和新陈代谢，适合调味、炖汤、做菜等方式。",
-      image: new URL("./static/jpg/pro12.DKWU3fWR.jpg", import.meta.url).href,
+      image: new URL("../jpg/pro12.DKWU3fWR.jpg", import.meta.url).href,
       price: 18,
       originalPrice: 22,
       discount: "8.2",
@@ -631,7 +631,7 @@ const G = O({}, [
       title: "安庆红枣",
       intro:
         "天然无添加，口感甘甜，富含铁质和维生素C，能有效补血养颜，适合冬季养生食用，做粥、煮茶美味！",
-      image: new URL("./static/jpg/pro13.CzEibrhz.jpg", import.meta.url).href,
+      image: new URL("../jpg/pro13.CzEibrhz.jpg", import.meta.url).href,
       price: 28,
       originalPrice: 32,
       discount: "8.7",
@@ -645,7 +645,7 @@ const G = O({}, [
       title: "桐城黄瓜",
       intro:
         "口感脆嫩，水分丰富，富含膳食纤维，清爽消暑，适合做沙拉、凉拌菜，是夏季餐桌必备的蔬菜！",
-      image: new URL("./static/jpg/pro14.C5cB03D-.jpg", import.meta.url).href,
+      image: new URL("../jpg/pro14.C5cB03D-.jpg", import.meta.url).href,
       price: 10,
       originalPrice: 12,
       discount: "8.3",
@@ -659,7 +659,7 @@ const G = O({}, [
       title: "合肥红薯",
       intro:
         "天然无污染，口感香甜，富含丰富的膳食纤维和营养，适合煮、烤、炒，健康美味全家人都喜欢！",
-      image: new URL("./static/jpg/pro15.DlWVWMF1.jpg", import.meta.url).href,
+      image: new URL("../jpg/pro15.DlWVWMF1.jpg", import.meta.url).href,
       price: 12,
       originalPrice: 15,
       discount: "8.0",
@@ -673,7 +673,7 @@ const G = O({}, [
       title: "宣城花生",
       intro:
         "香脆可口，富含优质蛋白和健康脂肪，助力补充能量，是零食和佐餐的理想选择，适合日常营养补充！",
-      image: new URL("./static/jpg/pro16.DYElCZf-.jpg", import.meta.url).href,
+      image: new URL("../jpg/pro16.DYElCZf-.jpg", import.meta.url).href,
       price: 18,
       originalPrice: 22,
       discount: "8.2",
@@ -687,7 +687,7 @@ const G = O({}, [
       title: "池州糯米",
       intro:
         "粒粒饱满，口感糯软，适合做糯米糕、粽子等各种传统美食，味道香甜，健康营养，适合家庭使用。",
-      image: new URL("./static/jpg/pro17.CwnUF5Ce.jpg", import.meta.url).href,
+      image: new URL("../jpg/pro17.CwnUF5Ce.jpg", import.meta.url).href,
       price: 8,
       originalPrice: 10,
       discount: "8.0",
@@ -701,7 +701,7 @@ const G = O({}, [
       title: "马鞍山牛肉",
       intro:
         "肉质鲜嫩，富含蛋白质和铁质，是高营养价值的肉类，适合煮汤、炖菜、炒菜等多种做法，肉质紧实。",
-      image: new URL("./static/jpg/pro18.Gu3W1pU0.jpg", import.meta.url).href,
+      image: new URL("../jpg/pro18.Gu3W1pU0.jpg", import.meta.url).href,
       price: 50,
       originalPrice: 60,
       discount: "8.3",
@@ -715,7 +715,7 @@ const G = O({}, [
       title: "黄山蜜柚",
       intro:
         "酸甜适中，果肉鲜嫩多汁，富含维生素C，口感清爽，是天然的美容养颜水果，适合日常食用。",
-      image: new URL("./static/jpg/pro19.C_ZTDHU6.jpg", import.meta.url).href,
+      image: new URL("../jpg/pro19.C_ZTDHU6.jpg", import.meta.url).href,
       price: 35,
       originalPrice: 45,
       discount: "7.8",
@@ -729,7 +729,7 @@ const G = O({}, [
       title: "安徽龙虾",
       intro:
         "鲜嫩多汁，肉质鲜美，富含优质蛋白，是夏季餐桌上的美味佳肴，适合家庭聚餐、烧烤等多种场合。",
-      image: new URL("./static/jpg/pro20.lPrBX8WH.jpg", import.meta.url).href,
+      image: new URL("../jpg/pro20.lPrBX8WH.jpg", import.meta.url).href,
       price: 128,
       originalPrice: 150,
       discount: "8.5",
@@ -823,15 +823,15 @@ const G = O({}, [
   ]),
   ie = h([
     {
-      src: new URL("./static/jpg/pro12.DKWU3fWR.jpg", import.meta.url).href,
+      src: new URL("../jpg/pro12.DKWU3fWR.jpg", import.meta.url).href,
       alt: "特色农产品1",
     },
     {
-      src: new URL("./static/jpg/pro15.DlWVWMF1.jpg", import.meta.url).href,
+      src: new URL("../jpg/pro15.DlWVWMF1.jpg", import.meta.url).href,
       alt: "特色农产品2",
     },
     {
-      src: new URL("./static/jpg/pro16.DYElCZf-.jpg", import.meta.url).href,
+      src: new URL("../jpg/pro16.DYElCZf-.jpg", import.meta.url).href,
       alt: "特色农产品3",
     },
   ]),
@@ -1516,62 +1516,62 @@ const G = O({}, [
             Object.assign({
               "../assets/cart.png":
                 "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAArRJREFUWEfVl09IFFEcx7/vza5LobJIdQohqJP0BzJtZ4vqELpviRDyEB3qEB2Cor/uLB2KCHdWJKQ6RB4y6hDaIaj908konLWCCkovWUgdpEOpaOWyur8aV2ObXXfGml1pTjOP3+99P/Ob7/zeewxLfLEl1kcOwIOnyk4das929XEp4P4A0MUlCb0Ahp1ltGl3bXi82BAGgMBGSWKvdVHGmd+3NRQtKYAuFtUCnwG2Coy1Ck/oXOkB+pQ7YDgA4ImQ1R0lB4glggeJqAvATDI5taJpV8dYMSFy/oK4pqxNA+8youkmIbfdLylAxgfKWwA1AHUIOXyy5AARLfCMgdWBMELADTsBOEeXz6MOz8+ZtxM+TCjtnHDaTuGsuYaErK4rCPAocaZ+hhz9RQEgfBJetbogQMYHwdFfHnDbDsHYXeEJ7TcFiGnBHgLtsx+AjgtP+KoFAKWZgG67ATjjmxs9rS9NAaL9LauR5gMAKm2EGBWyWpU9X8H9QFRT9CXZtnbMgLhPVn2WASKacpkBNjYidlHIofOWAWJafh9I3Gn6VWbSqZwYAnx+WY1bBpjzwXsAZXrSMpcb3g3H4HQsNwVITf+A9uYavk99zcQSkilKr9y7rW3CMoAeGNMUjQCPfl9VuQb1NUdMxecDng924sv4h/nHvMu76abU6AN3RTVcznJTiGRqEmMTH7PiqF3I4bPGRFOAhXxgSmAMINYsvKF7iwaYbct9wStgtH7RonMJBLzyy+qpfPmmFfhbUat5/w9Ad+/R8nJXxW2A/V4hiTAoufilxtrWEeMbx7RAA4FdJ8Itv1e9sFBFLFcg0qccYgw3c0xEqPN51RfG8UhCOcwInSBEhVf1/zPArBm1lhNEPHuPMOyYnO5paGj/ZhTQT1lcwhbO2UChA47lClg11WLjlhzgJ+L23iGuY9OQAAAAAElFTkSuQmCC",
-              "../assets/cart1.jpg": "./static/jpg/cart1.Wx5YmC8i.jpg",
-              "../assets/cart2.jpg": "./static/jpg/cart2.BZ94BNnN.jpg",
-              "../assets/cart3.jpg": "./static/jpg/cart3.BBFfN4wq.jpg",
-              "../assets/cart4.jpg": "./static/jpg/cart4.BGE35MRt.jpg",
-              "../assets/cart5.jpg": "./static/jpg/cart5.DI_Vlsk-.jpg",
-              "../assets/cart6.jpg": "./static/jpg/cart6.Bu0R0NJg.jpg",
-              "../assets/dl.jpg": "./static/jpg/dl.Ctej4ZHJ.jpg",
+              "../assets/cart1.jpg": "../jpg/cart1.Wx5YmC8i.jpg",
+              "../assets/cart2.jpg": "../jpg/cart2.BZ94BNnN.jpg",
+              "../assets/cart3.jpg": "../jpg/cart3.BBFfN4wq.jpg",
+              "../assets/cart4.jpg": "../jpg/cart4.BGE35MRt.jpg",
+              "../assets/cart5.jpg": "../jpg/cart5.DI_Vlsk-.jpg",
+              "../assets/cart6.jpg": "../jpg/cart6.Bu0R0NJg.jpg",
+              "../assets/dl.jpg": "../jpg/dl.Ctej4ZHJ.jpg",
               "../assets/farmer.png": "./static/png/farmer.CLic2ART.png",
-              "../assets/haha.jpg": "./static/jpg/haha.DdINuZ94.jpg",
+              "../assets/haha.jpg": "../jpg/haha.DdINuZ94.jpg",
               "../assets/icon.png": "./static/png/icon.COQI83UY.png",
               "../assets/left.png": "./static/png/left.Cb3rNVSd.png",
-              "../assets/lubo1.jpg": "./static/jpg/lubo1.CF74CVFQ.jpg",
-              "../assets/lubo2.jpg": "./static/jpg/lubo2.32df2Ck9.jpg",
-              "../assets/lubo3.jpg": "./static/jpg/lubo3.BJ6Iz8S8.jpg",
+              "../assets/lubo1.jpg": "..../jpg/lubo1.CF74CVFQ.jpg",
+              "../assets/lubo2.jpg": "../jpg/lubo2.32df2Ck9.jpg",
+              "../assets/lubo3.jpg": "../jpg/lubo3.BJ6Iz8S8.jpg",
               "../assets/navitem1.png": "./static/png/navitem1.Bfldjr9n.png",
               "../assets/navitem2.png": "./static/png/navitem2.C-u3PM1A.png",
               "../assets/navitem3.png": "./static/png/navitem3.C2NEPtsK.png",
               "../assets/navitem4.png": "./static/png/navitem4.CnMVY6zO.png",
               "../assets/navitem5.png": "./static/png/navitem5.CmxsabBD.png",
               "../assets/navitem6.png": "./static/png/navitem6.BpgtMu3F.png",
-              "../assets/new.jpg": "./static/jpg/new.BEbyREVM.jpg",
+              "../assets/new.jpg": "../jpg/new.BEbyREVM.jpg",
               "../assets/new.png":
                 "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAALpJREFUOE9jZKAQMML068Tr/idkFtM/Rt1Liy9dQVaHYsCVhZfhfHTDQBYwMjCk/2P5t+bq3KvvYPKkGcDMoMzwl8HlH9O/I1fnX70GMoQkA5BdBXMthgE68bofGRgY+MCK/zN8//GXS+LO0pOfkDWDvIPTAEIBCZLHa4BOnE4DuiFXFl1BEaOtAVTwgu5nBkYGHqhB3xkYGDih7N9///6Rv77k+nPaBiLFXqDIAGI0w9RgJCRSNCOrBQDEZI4RYtUduwAAAABJRU5ErkJggg==",
-              "../assets/news1.jpg": "./static/jpg/news1.BiqVOMB5.jpg",
-              "../assets/news10.jpg": "./static/jpg/news10.CV3afda9.jpg",
-              "../assets/news2.jpg": "./static/jpg/news2.DsBxQdAi.jpg",
-              "../assets/news3.jpg": "./static/jpg/news3.BqIw5wcl.jpg",
-              "../assets/news4.jpg": "./static/jpg/news4.DAlZJQmI.jpg",
-              "../assets/news5.jpg": "./static/jpg/news5.C1Mf5jlP.jpg",
-              "../assets/news6.jpg": "./static/jpg/news6.DMRvmgYJ.jpg",
-              "../assets/news7.jpg": "./static/jpg/news7.pWxIieXK.jpg",
-              "../assets/news8.jpg": "./static/jpg/news8.wLH4QXoP.jpg",
-              "../assets/news9.jpg": "./static/jpg/news9.CPj0l43c.jpg",
-              "../assets/pro1.jpg": "./static/jpg/pro1.BppsjYUc.jpg",
-              "../assets/pro10.jpg": "./static/jpg/pro10.Vf868XuA.jpg",
-              "../assets/pro11.jpg": "./static/jpg/pro11.BOzpS-XV.jpg",
-              "../assets/pro12.jpg": "./static/jpg/pro12.DKWU3fWR.jpg",
-              "../assets/pro13.jpg": "./static/jpg/pro13.CzEibrhz.jpg",
-              "../assets/pro14.jpg": "./static/jpg/pro14.C5cB03D-.jpg",
-              "../assets/pro15.jpg": "./static/jpg/pro15.DlWVWMF1.jpg",
-              "../assets/pro16.jpg": "./static/jpg/pro16.DYElCZf-.jpg",
-              "../assets/pro17.jpg": "./static/jpg/pro17.CwnUF5Ce.jpg",
-              "../assets/pro18.jpg": "./static/jpg/pro18.Gu3W1pU0.jpg",
-              "../assets/pro19.jpg": "./static/jpg/pro19.C_ZTDHU6.jpg",
-              "../assets/pro2.jpg": "./static/jpg/pro2.G05S0ofB.jpg",
-              "../assets/pro20.jpg": "./static/jpg/pro20.lPrBX8WH.jpg",
-              "../assets/pro3.jpg": "./static/jpg/pro3.5Od45o1x.jpg",
-              "../assets/pro4.jpg": "./static/jpg/pro4.CbCmFfM8.jpg",
-              "../assets/pro5.jpg": "./static/jpg/pro5.8GgS_Opz.jpg",
-              "../assets/pro6.jpg": "./static/jpg/pro6.CIVc3Py9.jpg",
-              "../assets/pro7.jpg": "./static/jpg/pro7.CC8HoImd.jpg",
-              "../assets/pro8.jpg": "./static/jpg/pro8.DvazujvP.jpg",
-              "../assets/pro9.jpg": "./static/jpg/pro9.CGL0uWo5.jpg",
+              "../assets/news1.jpg": "../jpg/news1.BiqVOMB5.jpg",
+              "../assets/news10.jpg": "../jpg/news10.CV3afda9.jpg",
+              "../assets/news2.jpg": "../jpg/news2.DsBxQdAi.jpg",
+              "../assets/news3.jpg": "../jpg/news3.BqIw5wcl.jpg",
+              "../assets/news4.jpg": "../jpg/news4.DAlZJQmI.jpg",
+              "../assets/news5.jpg": "../jpg/news5.C1Mf5jlP.jpg",
+              "../assets/news6.jpg": "../jpg/news6.DMRvmgYJ.jpg",
+              "../assets/news7.jpg": "../jpg/news7.pWxIieXK.jpg",
+              "../assets/news8.jpg": "../jpg/news8.wLH4QXoP.jpg",
+              "../assets/news9.jpg": "../jpg/news9.CPj0l43c.jpg",
+              "../assets/pro1.jpg": "../jpg/pro1.BppsjYUc.jpg",
+              "../assets/pro10.jpg": "../jpg/pro10.Vf868XuA.jpg",
+              "../assets/pro11.jpg": "../jpg/pro11.BOzpS-XV.jpg",
+              "../assets/pro12.jpg": "../jpg/pro12.DKWU3fWR.jpg",
+              "../assets/pro13.jpg": "../jpg/pro13.CzEibrhz.jpg",
+              "../assets/pro14.jpg": "../jpg/pro14.C5cB03D-.jpg",
+              "../assets/pro15.jpg": "../jpg/pro15.DlWVWMF1.jpg",
+              "../assets/pro16.jpg": "../jpg/pro16.DYElCZf-.jpg",
+              "../assets/pro17.jpg": "../jpg/pro17.CwnUF5Ce.jpg",
+              "../assets/pro18.jpg": "../jpg/pro18.Gu3W1pU0.jpg",
+              "../assets/pro19.jpg": "../jpg/pro19.C_ZTDHU6.jpg",
+              "../assets/pro2.jpg": "../jpg/pro2.G05S0ofB.jpg",
+              "../assets/pro20.jpg": "../jpg/pro20.lPrBX8WH.jpg",
+              "../assets/pro3.jpg": "../jpg/pro3.5Od45o1x.jpg",
+              "../assets/pro4.jpg": "../jpg/pro4.CbCmFfM8.jpg",
+              "../assets/pro5.jpg": "../jpg/pro5.8GgS_Opz.jpg",
+              "../assets/pro6.jpg": "../jpg/pro6.CIVc3Py9.jpg",
+              "../assets/pro7.jpg": "../jpg/pro7.CC8HoImd.jpg",
+              "../assets/pro8.jpg": "../jpg/pro8.DvazujvP.jpg",
+              "../assets/pro9.jpg": "../jpg/pro9.CGL0uWo5.jpg",
               "../assets/right.png":
                 "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAABKZJREFUaEPtmU1sG1UQx/+zdpD46qGoXIBCQUIIJHqA0qxNG3oA43VIEKgtQuVSKpDgQGkqvBYHyqHyBjWlPVCJqPRCkSARSA3xWoEDTYN3EwIHkEAcgPLVU0UP/UIo9g68ZRctobHfW6+pItmnyJ73Zn7z8d6bCWGZf2iZ248uwOWOYDcC3Qi06YFuCkUdODFTXK0RP6hp2jYQrWTm6wCsDGTOENFvYD7jed5Rj+njgQ3DP7cZgGSO0UqtuJFAQyAMKBnEmGDwSCE7fEJpXUS4rRSamn75pkZPYwjAC5E9jxNjHMA8NJzWztZPi9+8FelV8LAKwDombAbwQGTNwdRCaiTXt/cXVZDYALZrbmXmMoHWBEpHiXE4n7XmZYyo1kwBsgPAM0KewSeJqGTo1nsy60OZWAAVt7SLmEeCTcY9DcP9vdYXKopD2clZ8x7NQxHwowImGiro5f2yeykDVN3SY8z8fmi8kbG2yCprJmc75lgIQUSP5/XyBzL7KgFUayWdiR3fU4xXC1lrj4wSWZlKzdxDhFeEPDFl8tmy22qtNIAoWK+n8REDd3TC+NDQEIKAb7WF1EOtClsawHbMA+K0YcLRgm491coz7fxecc23ibENwEEjY+1stpcUgH/OE037x6GGe+MWrCxUUNif/52q3NfsnpACsGvmseCSGjUy1rOyhoh0iFsntmO+6R+xjAkjaw0upbMlwOS8eau2gO99bzSot7ChPCcDYDvFdwB6Mm69VGZK6ynFs37Ue3Bb/zrrh0vpbQlQcc0XibEfhDlDt3pljBcylVpxkIjE0XhFXAjbNWfBWM+EXQXdej0WgO2Yn/jXPmO3kbXCy0uKo+oUcwwfYkUcCLtmivfVvr/0Hzcy1qZ4AG7pSzDfTYz7ZJ8JUUW2U+oDWEBcrwoRPDc+A9FXhl5eGwug4pi/EnADEdbkdetHKdcvEhL5DI3HiLBaBaLqmrcw4yQDpwoZ68a4ABcJuDJ1rn5NLrfvQhwAsebDmeLalEZjINwuCzE1tfvqxrXp8wz8XshYV11WAHu2dCd5PMbAXQR8TcCjD2es75o5JCmAtlMoanyzglwMk0gK2e0WccTzKsYLmESKODxGifF8PmsdUqmBuJ4PdVRr5nNMeKOtY3Ty05ee1jTtsKr32jVeQITO8zxvR//9r70Vq4jFpCGdop/EYtm7YFHBOuf+OJvbsunQeZXo/ZM+AOoNvnmpCUbLp4TviRiPuRCijlTukczeUyrGB95P5jEXvGtiPacFhNFb/kbV+MSf04FH/IYGwHhSffBSYJH+OJmGRigSLWW9pz4djFE6BhEaL8Ys6YV0X2ItpR8F19wKxrvib9nngEr6RJt6EJ6QmRFJFXHUiOhMKEmIqPEqsyFlAP+GjMyGRJPPhANx+2RRsMTYGTTxUJkJ+Ue7SoijsmJGBOIjYswSfD/KDToi23IGLeP2cLQoxihg2i4zC4raERsgLOz/DHcJc/AwTsCJSw13GdgIDZtFqxgx5P8f7v6rLpbreH1x+okJBtUxSIyBZv/gYMIEp3FsqUmDSlq3lUIqijol2wXolGdl9+1GQNZTnZJb9hH4Eww2Xk9ScD3OAAAAAElFTkSuQmCC",
-              "../assets/zc.jpg": "./static/jpg/zc.Dm6QYKzu.jpg",
+              "../assets/zc.jpg": "../jpg/zc.Dm6QYKzu.jpg",
               "../assets/购物.png":
                 "./static/png/%E8%B4%AD%E7%89%A9.DasPVD7v.png",
             })[`../assets/${e}`],
@@ -1709,7 +1709,7 @@ const G = O({}, [
                       i("div", { class: "carousel" }, [
                         i("div", { class: "slides" }, [
                           i("img", {
-                            src: "./static/jpg/dl.Ctej4ZHJ.jpg",
+                            src: "../jpg/dl.Ctej4ZHJ.jpg",
                             alt: "hah",
                           }),
                         ]),
@@ -1867,7 +1867,7 @@ const G = O({}, [
                       i("div", { class: "carousel" }, [
                         i("div", { class: "slides" }, [
                           i("img", {
-                            src: "./static/jpg/zc.Dm6QYKzu.jpg",
+                            src: "../jpg/zc.Dm6QYKzu.jpg",
                             alt: "hah",
                           }),
                         ]),
@@ -1991,7 +1991,7 @@ const kt = O({}, [
                 i("h3", null, "欢迎访问最新资讯", -1),
                 i(
                   "img",
-                  { src: "./static/jpg/new.BEbyREVM.jpg", alt: "" },
+                  { src: "../jpg/new.BEbyREVM.jpg", alt: "" },
                   null,
                   -1
                 ),
