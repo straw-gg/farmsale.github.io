@@ -3,12 +3,12 @@ const __vite__mapDeps = (
   m = __vite__mapDeps,
   d = m.f ||
     (m.f = [
-      "static/js/SearchResults.DxrE_s2y.js",
-      "static/js/vendor.C8p9HwzL.js",
-      "static/css/vendor.5v6GsCxV.css",
-      "static/css/SearchResults.QsWefDEh.css",
-      "static/js/ProductDetail.DLb1AoNv.js",
-      "static/css/ProductDetail.BJxh27Pu.css",
+      "./static/js/SearchResults.DxrE_s2y.js",
+      "./static/js/vendor.C8p9HwzL.js",
+      "./static/css/vendor.5v6GsCxV.css",
+      "./static/css/SearchResults.QsWefDEh.css",
+      "./static/js/ProductDetail.DLb1AoNv.js",
+      "./static/css/ProductDetail.BJxh27Pu.css",
     ])
 ) => i.map((i) => d[i]);
 import {
