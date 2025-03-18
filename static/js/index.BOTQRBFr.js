@@ -1246,7 +1246,7 @@ const G = O({}, [
               name: "坚果",
               category: "坚果",
               image: new URL(
-                "./static/png/navitem2.C-u3PM1A.png",
+                "../static/png/navitem2.C-u3PM1A.png",
                 import.meta.url
               ).toString(),
             },
@@ -1255,7 +1255,7 @@ const G = O({}, [
               name: "蔬菜",
               category: "蔬菜",
               image: new URL(
-                "./static/png/navitem3.C2NEPtsK.png",
+                "../static/png/navitem3.C2NEPtsK.png",
                 import.meta.url
               ).toString(),
             },
@@ -1264,7 +1264,7 @@ const G = O({}, [
               name: "粮油",
               category: "粮油",
               image: new URL(
-                "./static/png/navitem1.Bfldjr9n.png",
+                "../static/png/navitem1.Bfldjr9n.png",
                 import.meta.url
               ).toString(),
             },
@@ -1273,7 +1273,7 @@ const G = O({}, [
               name: "瓜果",
               category: "瓜果",
               image: new URL(
-                "./static/png/navitem4.CnMVY6zO.png",
+                "../static/png/navitem4.CnMVY6zO.png",
                 import.meta.url
               ).toString(),
             },
@@ -1282,7 +1282,7 @@ const G = O({}, [
               name: "茶叶",
               category: "茶叶",
               image: new URL(
-                "./static/png/navitem5.CmxsabBD.png",
+                "../static/png/navitem5.CmxsabBD.png",
                 import.meta.url
               ).toString(),
             },
@@ -1291,7 +1291,7 @@ const G = O({}, [
               name: "海鲜",
               category: "海鲜",
               image: new URL(
-                "./static/png/navitem6.BpgtMu3F.png",
+                "../static/png/navitem6.BpgtMu3F.png",
                 import.meta.url
               ).toString(),
             },
@@ -1522,7 +1522,7 @@ const G = O({}, [
               "../assets/cart4.jpg": "../jpg/cart4.BGE35MRt.jpg",
               "../assets/cart5.jpg": "../jpg/cart5.DI_Vlsk-.jpg",
               "../assets/cart6.jpg": "../jpg/cart6.Bu0R0NJg.jpg",
-              "../assets/dl.jpg": "../jpg/dl.Ctej4ZHJ.jpg",
+              "../assets/dl.jpg": "../static/jpg/dl.Ctej4ZHJ.jpg",
               "../assets/farmer.png": "./static/png/farmer.CLic2ART.png",
               "../assets/haha.jpg": "../jpg/haha.DdINuZ94.jpg",
               "../assets/icon.png": "./static/png/icon.COQI83UY.png",
@@ -1530,13 +1530,13 @@ const G = O({}, [
               "../assets/lubo1.jpg": "..../jpg/lubo1.CF74CVFQ.jpg",
               "../assets/lubo2.jpg": "../jpg/lubo2.32df2Ck9.jpg",
               "../assets/lubo3.jpg": "../jpg/lubo3.BJ6Iz8S8.jpg",
-              "../assets/navitem1.png": "./static/png/navitem1.Bfldjr9n.png",
-              "../assets/navitem2.png": "./static/png/navitem2.C-u3PM1A.png",
-              "../assets/navitem3.png": "./static/png/navitem3.C2NEPtsK.png",
-              "../assets/navitem4.png": "./static/png/navitem4.CnMVY6zO.png",
-              "../assets/navitem5.png": "./static/png/navitem5.CmxsabBD.png",
-              "../assets/navitem6.png": "./static/png/navitem6.BpgtMu3F.png",
-              "../assets/new.jpg": "../jpg/new.BEbyREVM.jpg",
+              "../assets/navitem1.png": "../static/png/navitem1.Bfldjr9n.png",
+              "../assets/navitem2.png": "../static/png/navitem2.C-u3PM1A.png",
+              "../assets/navitem3.png": "../static/png/navitem3.C2NEPtsK.png",
+              "../assets/navitem4.png": "../static/png/navitem4.CnMVY6zO.png",
+              "../assets/navitem5.png": "../static/png/navitem5.CmxsabBD.png",
+              "../assets/navitem6.png": "../static/png/navitem6.BpgtMu3F.png",
+              "../assets/new.jpg": "./static/new.BEbyREVM.jpg",
               "../assets/new.png":
                 "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAALpJREFUOE9jZKAQMML068Tr/idkFtM/Rt1Liy9dQVaHYsCVhZfhfHTDQBYwMjCk/2P5t+bq3KvvYPKkGcDMoMzwl8HlH9O/I1fnX70GMoQkA5BdBXMthgE68bofGRgY+MCK/zN8//GXS+LO0pOfkDWDvIPTAEIBCZLHa4BOnE4DuiFXFl1BEaOtAVTwgu5nBkYGHqhB3xkYGDih7N9///6Rv77k+nPaBiLFXqDIAGI0w9RgJCRSNCOrBQDEZI4RYtUduwAAAABJRU5ErkJggg==",
               "../assets/news1.jpg": "../jpg/news1.BiqVOMB5.jpg",
@@ -1709,7 +1709,7 @@ const G = O({}, [
                       i("div", { class: "carousel" }, [
                         i("div", { class: "slides" }, [
                           i("img", {
-                            src: "../jpg/dl.Ctej4ZHJ.jpg",
+                            src: "../static/jpg/dl.Ctej4ZHJ.jpg",
                             alt: "hah",
                           }),
                         ]),
@@ -1991,7 +1991,7 @@ const kt = O({}, [
                 i("h3", null, "欢迎访问最新资讯", -1),
                 i(
                   "img",
-                  { src: "../jpg/new.BEbyREVM.jpg", alt: "" },
+                  { src: "./static/new.BEbyREVM.jpg", alt: "" },
                   null,
                   -1
                 ),
