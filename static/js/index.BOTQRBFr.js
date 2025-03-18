@@ -1522,7 +1522,7 @@ const G = O({}, [
               "../assets/cart4.jpg": "../jpg/cart4.BGE35MRt.jpg",
               "../assets/cart5.jpg": "../jpg/cart5.DI_Vlsk-.jpg",
               "../assets/cart6.jpg": "../jpg/cart6.Bu0R0NJg.jpg",
-              "../assets/dl.jpg": "../static/jpg/dl.Ctej4ZHJ.jpg",
+              "../assets/dl.jpg": "./static/jpg/dl.Ctej4ZHJ.jpg",
               "../assets/farmer.png": "./static/png/farmer.CLic2ART.png",
               "../assets/haha.jpg": "../jpg/haha.DdINuZ94.jpg",
               "../assets/icon.png": "./static/png/icon.COQI83UY.png",
@@ -1536,7 +1536,7 @@ const G = O({}, [
               "../assets/navitem4.png": "../static/png/navitem4.CnMVY6zO.png",
               "../assets/navitem5.png": "../static/png/navitem5.CmxsabBD.png",
               "../assets/navitem6.png": "../static/png/navitem6.BpgtMu3F.png",
-              "../assets/new.jpg": "./static/new.BEbyREVM.jpg",
+              "../assets/new.jpg": "./static/jpg/new.BEbyREVM.jpg",
               "../assets/new.png":
                 "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAALpJREFUOE9jZKAQMML068Tr/idkFtM/Rt1Liy9dQVaHYsCVhZfhfHTDQBYwMjCk/2P5t+bq3KvvYPKkGcDMoMzwl8HlH9O/I1fnX70GMoQkA5BdBXMthgE68bofGRgY+MCK/zN8//GXS+LO0pOfkDWDvIPTAEIBCZLHa4BOnE4DuiFXFl1BEaOtAVTwgu5nBkYGHqhB3xkYGDih7N9///6Rv77k+nPaBiLFXqDIAGI0w9RgJCRSNCOrBQDEZI4RYtUduwAAAABJRU5ErkJggg==",
               "../assets/news1.jpg": "../jpg/news1.BiqVOMB5.jpg",
@@ -1571,7 +1571,7 @@ const G = O({}, [
               "../assets/pro9.jpg": "../jpg/pro9.CGL0uWo5.jpg",
               "../assets/right.png":
                 "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAABKZJREFUaEPtmU1sG1UQx/+zdpD46qGoXIBCQUIIJHqA0qxNG3oA43VIEKgtQuVSKpDgQGkqvBYHyqHyBjWlPVCJqPRCkSARSA3xWoEDTYN3EwIHkEAcgPLVU0UP/UIo9g68ZRctobHfW6+pItmnyJ73Zn7z8d6bCWGZf2iZ248uwOWOYDcC3Qi06YFuCkUdODFTXK0RP6hp2jYQrWTm6wCsDGTOENFvYD7jed5Rj+njgQ3DP7cZgGSO0UqtuJFAQyAMKBnEmGDwSCE7fEJpXUS4rRSamn75pkZPYwjAC5E9jxNjHMA8NJzWztZPi9+8FelV8LAKwDombAbwQGTNwdRCaiTXt/cXVZDYALZrbmXmMoHWBEpHiXE4n7XmZYyo1kwBsgPAM0KewSeJqGTo1nsy60OZWAAVt7SLmEeCTcY9DcP9vdYXKopD2clZ8x7NQxHwowImGiro5f2yeykDVN3SY8z8fmi8kbG2yCprJmc75lgIQUSP5/XyBzL7KgFUayWdiR3fU4xXC1lrj4wSWZlKzdxDhFeEPDFl8tmy22qtNIAoWK+n8REDd3TC+NDQEIKAb7WF1EOtClsawHbMA+K0YcLRgm491coz7fxecc23ibENwEEjY+1stpcUgH/OE037x6GGe+MWrCxUUNif/52q3NfsnpACsGvmseCSGjUy1rOyhoh0iFsntmO+6R+xjAkjaw0upbMlwOS8eau2gO99bzSot7ChPCcDYDvFdwB6Mm69VGZK6ynFs37Ue3Bb/zrrh0vpbQlQcc0XibEfhDlDt3pljBcylVpxkIjE0XhFXAjbNWfBWM+EXQXdej0WgO2Yn/jXPmO3kbXCy0uKo+oUcwwfYkUcCLtmivfVvr/0Hzcy1qZ4AG7pSzDfTYz7ZJ8JUUW2U+oDWEBcrwoRPDc+A9FXhl5eGwug4pi/EnADEdbkdetHKdcvEhL5DI3HiLBaBaLqmrcw4yQDpwoZ68a4ABcJuDJ1rn5NLrfvQhwAsebDmeLalEZjINwuCzE1tfvqxrXp8wz8XshYV11WAHu2dCd5PMbAXQR8TcCjD2es75o5JCmAtlMoanyzglwMk0gK2e0WccTzKsYLmESKODxGifF8PmsdUqmBuJ4PdVRr5nNMeKOtY3Ty05ee1jTtsKr32jVeQITO8zxvR//9r70Vq4jFpCGdop/EYtm7YFHBOuf+OJvbsunQeZXo/ZM+AOoNvnmpCUbLp4TviRiPuRCijlTukczeUyrGB95P5jEXvGtiPacFhNFb/kbV+MSf04FH/IYGwHhSffBSYJH+OJmGRigSLWW9pz4djFE6BhEaL8Ys6YV0X2ItpR8F19wKxrvib9nngEr6RJt6EJ6QmRFJFXHUiOhMKEmIqPEqsyFlAP+GjMyGRJPPhANx+2RRsMTYGTTxUJkJ+Ue7SoijsmJGBOIjYswSfD/KDToi23IGLeP2cLQoxihg2i4zC4raERsgLOz/DHcJc/AwTsCJSw13GdgIDZtFqxgx5P8f7v6rLpbreH1x+okJBtUxSIyBZv/gYMIEp3FsqUmDSlq3lUIqijol2wXolGdl9+1GQNZTnZJb9hH4Eww2Xk9ScD3OAAAAAElFTkSuQmCC",
-              "../assets/zc.jpg": "../jpg/zc.Dm6QYKzu.jpg",
+              "../assets/zc.jpg": "./static/jpg/zc.Dm6QYKzu.jpg",
               "../assets/购物.png":
                 "./static/png/%E8%B4%AD%E7%89%A9.DasPVD7v.png",
             })[`../assets/${e}`],
@@ -1709,7 +1709,7 @@ const G = O({}, [
                       i("div", { class: "carousel" }, [
                         i("div", { class: "slides" }, [
                           i("img", {
-                            src: "../static/jpg/dl.Ctej4ZHJ.jpg",
+                            src: "./static/jpg/dl.Ctej4ZHJ.jpg",
                             alt: "hah",
                           }),
                         ]),
@@ -1867,7 +1867,7 @@ const G = O({}, [
                       i("div", { class: "carousel" }, [
                         i("div", { class: "slides" }, [
                           i("img", {
-                            src: "../jpg/zc.Dm6QYKzu.jpg",
+                            src: "./static/jpg/zc.Dm6QYKzu.jpg",
                             alt: "hah",
                           }),
                         ]),
@@ -1991,7 +1991,7 @@ const kt = O({}, [
                 i("h3", null, "欢迎访问最新资讯", -1),
                 i(
                   "img",
-                  { src: "./static/new.BEbyREVM.jpg", alt: "" },
+                  { src: "./static/jpg/new.BEbyREVM.jpg", alt: "" },
                   null,
                   -1
                 ),
